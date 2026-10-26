@@ -14,7 +14,9 @@ This site publishes step-by-step help pages. It does not collect OTPs, passwords
 - [Scam checklist](https://6eclubregister.com/guides/scam-checklist): Fake links, OTP traps, lookalikes
 - [Responsible play](https://6eclubregister.com/responsible-play): Limits and healthier habits
 
-## Optional
+## Technical
 
 - [Sitemap](https://6eclubregister.com/sitemap.xml)
 - [Robots](https://6eclubregister.com/robots.txt)
+- [Web app manifest](https://6eclubregister.com/manifest.webmanifest)
+- [Open Graph image](https://6eclubregister.com/images/se-og.jpg)

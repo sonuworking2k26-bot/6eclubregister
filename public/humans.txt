@@ -1,0 +1,9 @@
+/* TEAM */
+Site: 6E Club Register
+Host: 6eclubregister.com
+Note: Independent India guides — not an official operator.
+
+/* SITE */
+Standards: HTML5, Next.js App Router
+Language: en-IN
+Last update: 2026-10-26
