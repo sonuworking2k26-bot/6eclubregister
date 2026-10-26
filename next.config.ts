@@ -11,6 +11,12 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  images: {
+    formats: ["image/webp"],
+    deviceSizes: [640, 750, 1080, 1200],
+    imageSizes: [96, 128, 160, 200, 280, 360],
+    minimumCacheTTL: 60 * 60 * 24 * 30,
+  },
 };
 
 export default nextConfig;

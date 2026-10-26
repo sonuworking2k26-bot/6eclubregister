@@ -21,6 +21,7 @@ export function PhoneShot({
         height={720}
         className="phone-shot-img"
         priority={priority}
+        quality={72}
         sizes="280px"
       />
       {alt ? <figcaption className="phone-shot-cap">{alt}</figcaption> : null}

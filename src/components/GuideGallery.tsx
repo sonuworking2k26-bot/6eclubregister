@@ -25,6 +25,7 @@ export function GuideGallery({ items }: { items: GalleryItem[] }) {
             width={1200}
             height={675}
             className="h-auto w-full object-cover"
+            quality={72}
             sizes="(max-width: 768px) 100vw, 720px"
           />
           <figcaption>{item.alt}</figcaption>

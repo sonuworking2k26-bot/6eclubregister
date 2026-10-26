@@ -37,7 +37,7 @@ export function GamesAvailableSection() {
         </div>
 
         <ul className="mt-6 m-0 grid list-none grid-cols-2 gap-3 p-0 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
-          {gamesAvailable.map((game) => (
+          {gamesAvailable.map((game, index) => (
             <li key={game.src} className="min-w-0">
               <figure className="game-tile-3d m-0">
                 <div className="game-tile-face">
@@ -47,7 +47,9 @@ export function GamesAvailableSection() {
                     width={320}
                     height={240}
                     className="game-tile-img"
-                    sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 200px"
+                    quality={70}
+                    priority={index < 4}
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 280px"
                   />
                   <figcaption className="game-tile-cap">
                     <span className="game-tile-name">{game.name}</span>
