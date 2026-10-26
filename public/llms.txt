@@ -1,0 +1,20 @@
+# 6E Club Register
+
+> Independent India guides for 6E Club register, login, APK safety, game basics, and scam checks. Not an official operator. Host: 6eclubregister.com.
+
+This site publishes step-by-step help pages. It does not collect OTPs, passwords, or payments, and it does not host APK files.
+
+## Guides
+
+- [6E Club Register](https://6eclubregister.com/): Mobile signup, SMS OTP, invite code, common errors
+- [6E Club Login](https://6eclubregister.com/6e-club-login): Phone-number login ID and OTP stalls
+- [6E Club APK](https://6eclubregister.com/6e-club-apk): Download safety and install checks
+- [What is 6E Club](https://6eclubregister.com/6e-club): Brand overview and how to start
+- [6E Club Game](https://6eclubregister.com/6e-club-game): Colour-round / lobby basics
+- [Scam checklist](https://6eclubregister.com/guides/scam-checklist): Fake links, OTP traps, lookalikes
+- [Responsible play](https://6eclubregister.com/responsible-play): Limits and healthier habits
+
+## Optional
+
+- [Sitemap](https://6eclubregister.com/sitemap.xml)
+- [Robots](https://6eclubregister.com/robots.txt)
