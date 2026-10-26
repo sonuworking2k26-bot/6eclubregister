@@ -36,10 +36,10 @@ export function GamesAvailableSection() {
           </ExtLink>
         </div>
 
-        <ul className="games-grid">
+        <ul className="mt-6 m-0 grid list-none grid-cols-2 gap-3 p-0 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
           {gamesAvailable.map((game) => (
-            <li key={game.src} className="games-grid-item">
-              <figure className="game-tile-3d">
+            <li key={game.src} className="min-w-0">
+              <figure className="game-tile-3d m-0">
                 <div className="game-tile-face">
                   <Image
                     src={game.src}
