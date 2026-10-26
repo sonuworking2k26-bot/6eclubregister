@@ -11,6 +11,7 @@ export default function BrandPage() {
   return (
     <GuidePage
       doc={getDoc("brand")}
+      showGames
       gallery={[
         {
           src: "/images/se-banner-1-site.webp",
@@ -21,10 +22,6 @@ export default function BrandPage() {
           src: "/images/se-games-screen-site.webp",
           alt: "6E Club games lobby",
         },
-        { src: "/images/se-tile-wingo.webp", alt: "WinGo", variant: "tile" },
-        { src: "/images/se-tile-trx.webp", alt: "TRX", variant: "tile" },
-        { src: "/images/se-tile-k3.webp", alt: "K3", variant: "tile" },
-        { src: "/images/se-tile-5d.webp", alt: "5D", variant: "tile" },
       ]}
     />
   );

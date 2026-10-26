@@ -11,6 +11,7 @@ export default function HomePage() {
   return (
     <GuidePage
       doc={getDoc("home")}
+      showGames
       gallery={[
         {
           src: "/images/se-banner-1-site.webp",

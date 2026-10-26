@@ -3,6 +3,7 @@ import { prepareGuideBody, shortLead } from "@/lib/content";
 import { externalLinks } from "@/lib/site";
 import { guideJsonLd } from "@/lib/seo";
 import { extractToc } from "@/lib/toc";
+import { GamesAvailableSection } from "./GamesAvailableSection";
 import { GiftCodeSection } from "./GiftCodeSection";
 import { GuideAside } from "./GuideAside";
 import { GuideGallery, type GalleryItem } from "./GuideGallery";
@@ -14,9 +15,12 @@ import { RelatedGuides } from "./RelatedGuides";
 export function GuidePage({
   doc,
   gallery = [],
+  showGames = false,
 }: {
   doc: Doc;
   gallery?: GalleryItem[];
+  /** Show “Games available” tile strip under gift codes */
+  showGames?: boolean;
 }) {
   const toc = extractToc(doc.body);
   const body = prepareGuideBody(doc.body);
@@ -39,6 +43,7 @@ export function GuidePage({
       />
 
       <GiftCodeSection />
+      {showGames ? <GamesAvailableSection /> : null}
 
       <div className="site-shell grid gap-8 py-8 lg:grid-cols-[minmax(0,1fr)_280px] lg:items-start lg:gap-12 lg:py-12">
         <div className="guide-main min-w-0">
