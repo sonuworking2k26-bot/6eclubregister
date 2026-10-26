@@ -45,37 +45,37 @@ export const pages: Record<
   home: {
     file: "home-register.md",
     path: "/",
-    image: "/images/se-register-screen-site.webp",
+    image: "/images/se-register-v2.webp",
     imageAlt: "6E Club register screen on mobile",
   },
   login: {
     file: "6e-club-login.md",
     path: "/6e-club-login",
-    image: "/images/se-login-screen-site.webp",
+    image: "/images/se-login-v2.webp",
     imageAlt: "6E Club login screen on mobile",
   },
   apk: {
     file: "6e-club-apk.md",
     path: "/6e-club-apk",
-    image: "/images/se-app-download-steps-site.webp",
+    image: "/images/se-download-v2.webp",
     imageAlt: "6E Club app download steps",
   },
   brand: {
     file: "6e-club.md",
     path: "/6e-club",
-    image: "/images/se-lobby-screen-site.webp",
+    image: "/images/se-lobby-v2.webp",
     imageAlt: "6E Club lobby on mobile",
   },
   game: {
     file: "6e-club-game.md",
     path: "/6e-club-game",
-    image: "/images/se-how-to-play-wingo-site.webp",
+    image: "/images/se-wingo-v2.webp",
     imageAlt: "How to play 6E Club WinGo colour rounds",
   },
   scam: {
     file: "scam-checklist.md",
     path: "/guides/scam-checklist",
-    image: "/images/se-banner-1-site.webp",
+    image: "/images/se-banner-v2.webp",
     imageAlt: "6E Club safety and guide banner",
   },
   responsible: {

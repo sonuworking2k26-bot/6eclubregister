@@ -14,12 +14,12 @@ export default function BrandPage() {
       showGames
       gallery={[
         {
-          src: "/images/se-banner-1-site.webp",
+          src: "/images/se-banner-v2.webp",
           alt: "6E Club brand banner",
           variant: "wide",
         },
         {
-          src: "/images/se-games-screen-site.webp",
+          src: "/images/se-games-v2.webp",
           alt: "6E Club games lobby",
         },
       ]}

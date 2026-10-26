@@ -13,7 +13,7 @@ export default function ResponsiblePlayPage() {
       doc={getDoc("responsible")}
       gallery={[
         {
-          src: "/images/se-banner-1-site.webp",
+          src: "/images/se-banner-v2.webp",
           alt: "Play within limits — 6E Club guide",
           variant: "wide",
         },

@@ -13,12 +13,12 @@ export default function ScamChecklistPage() {
       doc={getDoc("scam")}
       gallery={[
         {
-          src: "/images/se-app-download-steps-site.webp",
+          src: "/images/se-download-v2.webp",
           alt: "Only install from a host you trust — download steps",
           variant: "wide",
         },
         {
-          src: "/images/se-login-screen-site.webp",
+          src: "/images/se-login-v2.webp",
           alt: "Real login screen — check the hostname yourself",
         },
       ]}

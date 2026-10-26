@@ -13,7 +13,7 @@ export default function LoginPage() {
       doc={getDoc("login")}
       gallery={[
         {
-          src: "/images/se-register-screen-site.webp",
+          src: "/images/se-register-v2.webp",
           alt: "6E Club register screen — same mobile login ID",
         },
       ]}

@@ -14,16 +14,16 @@ export default function HomePage() {
       showGames
       gallery={[
         {
-          src: "/images/se-banner-1-site.webp",
+          src: "/images/se-banner-v2.webp",
           alt: "6E Club banner",
           variant: "wide",
         },
         {
-          src: "/images/se-invite-screen-site.webp",
+          src: "/images/se-invite-v2.webp",
           alt: "6E Club invite code screen",
         },
         {
-          src: "/images/se-gift-code-screen-site.webp",
+          src: "/images/se-gift-v2.webp",
           alt: "6E Club gift code screen",
         },
       ]}

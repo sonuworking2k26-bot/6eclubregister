@@ -3,7 +3,7 @@ import type { Doc } from "./content";
 import { site } from "./site";
 
 const OG_IMAGE = {
-  url: "/images/se-og.jpg",
+  url: "/images/se-og-v2.jpg",
   width: 1200,
   height: 630,
   alt: site.name,

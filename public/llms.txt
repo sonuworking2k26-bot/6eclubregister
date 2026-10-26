@@ -19,4 +19,4 @@ This site publishes step-by-step help pages. It does not collect OTPs, passwords
 - [Sitemap](https://6eclubregister.com/sitemap.xml)
 - [Robots](https://6eclubregister.com/robots.txt)
 - [Web app manifest](https://6eclubregister.com/manifest.webmanifest)
-- [Open Graph image](https://6eclubregister.com/images/se-og.jpg)
+- [Open Graph image](https://6eclubregister.com/images/se-og-v2.jpg)

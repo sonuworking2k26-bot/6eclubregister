@@ -13,11 +13,11 @@ export default function ApkPage() {
       doc={getDoc("apk")}
       gallery={[
         {
-          src: "/images/se-lobby-screen-site.webp",
+          src: "/images/se-lobby-v2.webp",
           alt: "6E Club lobby after install",
         },
         {
-          src: "/images/se-games-screen-site.webp",
+          src: "/images/se-games-v2.webp",
           alt: "Games list inside the app",
         },
       ]}

@@ -14,11 +14,11 @@ export default function GamePage() {
       showGames
       gallery={[
         {
-          src: "/images/se-games-screen-site.webp",
+          src: "/images/se-games-v2.webp",
           alt: "6E Club games lobby screen",
         },
         {
-          src: "/images/se-lobby-screen-site.webp",
+          src: "/images/se-lobby-v2.webp",
           alt: "6E Club main lobby",
         },
       ]}
