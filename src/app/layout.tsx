@@ -1,11 +1,14 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Manrope } from "next/font/google";
+import Script from "next/script";
 import { MobileNav } from "@/components/MobileNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { siteJsonLd } from "@/lib/seo";
 import { site } from "@/lib/site";
 import "./globals.css";
+
+const GA_ID = "G-TD7SBP3Q4P";
 
 const display = Fraunces({
   variable: "--font-display",
@@ -83,6 +86,9 @@ export const metadata: Metadata = {
     apple: [{ url: "/images/se-app-icon2.webp" }],
     shortcut: ["/images/se-app-icon2.webp"],
   },
+  verification: {
+    google: "X6Y0zbeAOC2Kik4GhL957UiEj-vsAOOOGN_T3mTwkxg",
+  },
   other: {
     "content-language": "en-IN",
   },
@@ -99,6 +105,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-IN" className={`${display.variable} ${body.variable} h-full`}>
       <body className="page-with-bottom-nav flex min-h-full flex-col antialiased">
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+        <Script id="gtag-init" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${GA_ID}');
+        `}</Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd()) }}
