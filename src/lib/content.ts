@@ -3,7 +3,18 @@ import path from "path";
 import matter from "gray-matter";
 import { pages, type PageKey } from "./site";
 
-const draftsDir = path.join(process.cwd(), "content", "drafts");
+function resolveDraftsDir(): string {
+  const candidates = [
+    path.join(process.cwd(), "content", "drafts"),
+    path.join(process.cwd(), "..", "content", "drafts"),
+  ];
+  for (const dir of candidates) {
+    if (fs.existsSync(dir)) return dir;
+  }
+  return candidates[0];
+}
+
+const draftsDir = resolveDraftsDir();
 
 export type Doc = {
   key: PageKey;
