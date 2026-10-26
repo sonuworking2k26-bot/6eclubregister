@@ -7,7 +7,7 @@ import { ExtLink } from "./ExtLink";
 export function GamesAvailableSection() {
   return (
     <section
-      className="border-b border-line bg-white/70"
+      className="games-available border-b border-line"
       aria-labelledby="games-available-heading"
     >
       <div className="site-shell py-8 sm:py-10">
@@ -36,22 +36,24 @@ export function GamesAvailableSection() {
           </ExtLink>
         </div>
 
-        <ul className="mt-6 m-0 grid list-none grid-cols-2 gap-3 p-0 sm:grid-cols-3 lg:grid-cols-4 sm:gap-4">
+        <ul className="games-grid">
           {gamesAvailable.map((game) => (
-            <li key={game.src}>
-              <figure className="m-0 overflow-hidden rounded-xl border border-line bg-white">
-                <Image
-                  src={game.src}
-                  alt={`${game.name} — 6E Club game tile`}
-                  width={320}
-                  height={240}
-                  className="aspect-[4/3] h-auto w-full object-cover"
-                  sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 200px"
-                />
-                <figcaption className="border-t border-line px-3 py-2.5">
-                  <span className="block text-sm font-bold text-green-forest">{game.name}</span>
-                  <span className="mt-0.5 block text-xs text-muted">{game.blurb}</span>
-                </figcaption>
+            <li key={game.src} className="games-grid-item">
+              <figure className="game-tile-3d">
+                <div className="game-tile-face">
+                  <Image
+                    src={game.src}
+                    alt={`${game.name} — 6E Club game tile`}
+                    width={320}
+                    height={240}
+                    className="game-tile-img"
+                    sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 200px"
+                  />
+                  <figcaption className="game-tile-cap">
+                    <span className="game-tile-name">{game.name}</span>
+                    <span className="game-tile-blurb">{game.blurb}</span>
+                  </figcaption>
+                </div>
               </figure>
             </li>
           ))}
