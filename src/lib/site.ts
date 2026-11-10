@@ -10,8 +10,8 @@ export const site = {
 
 /** Single place to change live app URLs (header + hero CTAs). */
 export const externalLinks = {
-  register: "https://www.6clubi.com/#/register?invitationCode=466122943641",
-  login: "https://www.6clubi.com/#/login",
+  register: "https://6eclubs9a.com/register?inviteCode=PCYFQLN&from=web",
+  login: "https://6eclubs9a.com/register?inviteCode=PCYFQLN&from=web",
   telegramGiftCodes: "https://t.me/+igD1lBSi_0s5Nzg1",
 } as const;
 
